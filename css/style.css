@@ -14,7 +14,85 @@ text p{
     font-weight: 400;
     text-align: center;
 }
-.mideum{
-    visibility: hidden;
+
+.midimg{
+  width: 50%;
+  height: 806px;
 }
-   
+@media only screen and (max-width: 600px){
+    .join{
+       margin-top: 15%;
+        text-align: center;
+        flex-direction: column;
+    }
+    .join h1{
+        font-size: 25px;
+        margin-top: 5px;
+    }
+    .join p{
+        font-size: 14px;
+        
+        
+    }
+    .rbt{
+        margin-bottom: 20%;
+
+    }
+    .midtxt{
+        text-align: center;
+    }
+        
+       
+       
+    
+}
+@media only screen and (min-width: 768px){
+    .join{
+        margin-top: 15%;
+         text-align: center;
+         flex-direction: column;
+     }
+     .join h1{
+         font-size: 25px;
+         margin-top: 5px;
+     }
+     .join p{
+         font-size: 14px;
+         
+         
+     }
+     .rbt{
+         margin-bottom: 20%;
+ 
+     }
+         
+
+}
+@media only screen and (min-width: 992px){
+    .join h1{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 50%;
+        text-align: l;
+        padding-right: 9%;
+        
+}
+.join p{
+  padding-left: -15%;
+ width: 50%;
+    
+}
+.join{
+    margin-top: 0;
+    flex-direction: row;
+}
+.join2{
+    width: 25%;
+    display: flex;
+    margin-right: -15%;
+  
+}
+}
+
+    
