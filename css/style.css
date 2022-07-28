@@ -29,7 +29,33 @@ text p{
    margin-left: 5%;
    margin-right: 5%;
    margin-top: 3%;
+   width: 50%;
 }
+.footer{
+    height: 250px;
+    width: 100%;
+}
+.footertxt {
+    font-size: 12px;
+    text-align: center;
+    
+}
+.smtxt{
+    padding-top: 0%;
+}
+.socialico{
+    gap: 21px;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    padding-right: 28px;
+    
+}
+.socialico a{
+    color: aliceblue;
+}
+
+
 @media only screen and (max-width: 600px){
     .join{
        margin-top: 15%;
@@ -63,6 +89,13 @@ text p{
         display: none;
     }
   
+    .scard{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+
+    
        
     
 }
