@@ -19,6 +19,17 @@ text p{
   width: 50%;
   height: 806px;
 }
+
+.ques{
+
+ padding-left: 15%;
+ padding-right: 15%;
+}
+.brand{
+   margin-left: 5%;
+   margin-right: 5%;
+   margin-top: 3%;
+}
 @media only screen and (max-width: 600px){
     .join{
        margin-top: 15%;
@@ -42,7 +53,16 @@ text p{
         text-align: center;
     }
         
-       
+    .ques{
+        width: 100%;
+       text-align: center;
+       padding-left: 0%;
+       padding-right: 0%;
+    }
+    .brandname{
+        display: none;
+    }
+  
        
     
 }
@@ -68,8 +88,25 @@ text p{
      .viewbtn{
         visibility: hidden;
      }
+     .ques{
+        width: 100%;
+       text-align: center;
+       padding-left: 0%;
+       padding-right: 0%;
+       
+    } 
+    .brandname{
+        display: none;
+    }
+   
+       
          
 
+}
+@media only screen and (min-width: 731px){
+    .brandname{
+        display: none;
+    }
 }
 @media only screen and (min-width: 992px){
     .join h1{
@@ -103,6 +140,12 @@ text p{
     .viewbtn{
         visibility: visible;
     }
-}
+    .ques{
 
-    
+        padding-left: 15%;
+        padding-right: 15%;
+       }
+       .brandname{
+        display:inline;
+    }
+}
