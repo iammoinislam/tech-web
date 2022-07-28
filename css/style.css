@@ -65,6 +65,9 @@ text p{
          margin-bottom: 20%;
  
      }
+     .viewbtn{
+        visibility: hidden;
+     }
          
 
 }
@@ -93,6 +96,13 @@ text p{
     margin-right: -15%;
   
 }
+}.viewbtn{
+    visibility: hidden;
+}
+@media only screen and (min-width: 992px){
+    .viewbtn{
+        visibility: visible;
+    }
 }
 
     
