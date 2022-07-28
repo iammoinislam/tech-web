@@ -2,14 +2,76 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-.text{
+/* nav bar */
+.navname{
+    color: #4A4A4A;
+}
+/* carousel */
+.btn1{
+    background-color: #289BDE;
+    border: none;
+    color: aliceblue;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+}
+/* mid part */
+.dp1{
+    color: #777777;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.cardtxt h5{
+    color: #4A4A4A;
+}
+.cardtxt p{
+    color: #777777;
+    font-weight: 400;
+}
+.price{
+    color: #289BDE;
+}
+.cbtn{
+    background-color: #289BDE;
+    border: none;
+}
+
+
+.midtxt h1{
+    color: #1D1D1D;
+    font-weight: 600;
+}
+.midtxt p{
+    color: #777777;
+    font-weight: 400;
+}
+.ct1{
+    color: #4A4A4A;
+    font-weight: 600;
+}
+
+.ct2{
+    color: #777777;
+    font-weight: 400;
+}
+.stut {
+    color: #1D1D1D;
+    font-weight: 600;
+}
+
+
+
+
+
+.ftxt{
     margin-bottom: 190px;
 }
-.text h1{
+
+.fxt h1{
     text-align: center;
     font-weight: 600;
 }
-text p{
+.ftxt p{
     font-size: 14px;
     font-weight: 400;
     text-align: center;
@@ -55,7 +117,7 @@ text p{
     color: aliceblue;
 }
 
-
+/* responsive mobile */
 @media only screen and (max-width: 600px){
     .join{
        margin-top: 15%;
@@ -99,6 +161,8 @@ text p{
        
     
 }
+
+/* responsive tab */
 @media only screen and (min-width: 768px){
     .join{
         margin-top: 15%;
@@ -136,6 +200,8 @@ text p{
          
 
 }
+
+/* responsive larger device */
 @media only screen and (min-width: 731px){
     .brandname{
         display: none;
